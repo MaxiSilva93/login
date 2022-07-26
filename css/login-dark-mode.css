@@ -29,6 +29,11 @@ h3 {
     display: flex;
     gap: 20px;
 }
+
+.img-google {
+    border-radius: 10px;
+}
+
 .google-btn {
     background-color: #1A73E8;
     border: none;
@@ -126,10 +131,14 @@ label input[type="text"], label input[type="email"], label input[type="password"
     padding-left: 10px;
 }
 
-label input[type="text"] {
+label input[type="text"]:focus, label input[type="text"]:hover {
     width: 98%;
+    color: black;
 }
 
+label input[type="text"] {
+    color: white;
+}
 
 form {
     width: 100%;
