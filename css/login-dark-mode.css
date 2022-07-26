@@ -182,9 +182,10 @@ input[type="text"], input[type="email"], input[type="password"] {
     border:none;
     background-color: #ea4c89;
     border-radius: 10px;
-    width: 101%;
+    width: 27%;
     font-weight: 700;
     font-size: 17px;
+    margin: auto;
     cursor: pointer;
 }
 
