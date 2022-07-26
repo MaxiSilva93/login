@@ -140,3 +140,7 @@ label input:focus {
 .checkbox-label {
     
 }
+
+hr {
+    width: 80%;
+}
