@@ -141,3 +141,7 @@ label input:focus {
 .checkbox-label {
     
 }
+
+input[type="text"], input[type="email"], input[type="password"] {
+    margin-top: 0.5em;   
+}
