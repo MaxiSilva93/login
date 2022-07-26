@@ -166,7 +166,7 @@ input[type="text"], input[type="email"], input[type="password"] {
     border:none;
     background-color: #ea4c89;
     border-radius: 10px;
-    width: 27%;
+    width: 30%;
     font-weight: 700;
     font-size: 17px;
     cursor: pointer;
