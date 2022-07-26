@@ -109,39 +109,69 @@ label span {
     font-weight: 700;
 }
 
-label input {
+label input[type="text"], label input[type="email"], label input[type="password"] {
     background-color: #f3f3f4;
     border-radius: 5px;
     border: 1px solid #f3f3f4;
     height: 35px;
-    width: 100%;
-    padding-left: 15px;
+    width: 99%;
     outline: none;
+    padding-left: 10px;
 }
 
+label input[type="text"] {
+    width: 98%;
+}
+
+
 form {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 35px;
 }
 
-label input:hover {
+label input[type="text"]:hover, label input[type="email"]:hover, label input[type="password"]:hover {
     background-color: white;
     border: 2 px solid #f3f3f4;
     box-shadow: 0 0 10px #83076e6b;
 }
 
-label input:focus {
+label input[type="text"]:focus, label input[type="email"]:focus, label input[type="password"]:focus {
     background-color: white;
     border: 2 px solid #f3f3f4;
     box-shadow: 0 0 10px #83076e6b;
-}
-
-.checkbox-label {
-    
 }
 
 input[type="text"], input[type="email"], input[type="password"] {
     margin-top: 0.5em;   
+}
+
+.checkbox-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkbox-label span {
+    font-size: 0.9em;
+    margin-left: 0.3em;
+    font-weight: 300;
+    color: rgb(15, 70, 24);
+}
+
+.submit-btn {
+    color: white;
+    height: 35px;
+    border:none;
+    background-color: #ea4c89;
+    border-radius: 10px;
+    width: 101%;
+    font-weight: 700;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    opacity: 0.8;
 }
