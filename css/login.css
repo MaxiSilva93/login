@@ -18,6 +18,10 @@ body {
     width: 80vw;
 }
 
+.img-google {
+    border-radius: 10px;
+}
+
 .buttons {
     align-self:center;
     display: flex;
